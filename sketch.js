@@ -1,7 +1,7 @@
 let img;
 
 function preload() {
-  img = loadImage('score.img1.jpg');
+  img = loadImage('animal1.png');
 }
 
 function setup() {
