@@ -4,9 +4,9 @@ let flowerImage;
 
 // ３つの花の画像ファイルを読み込む
 function preload() {
-    blueFlowerImage = loadImage('images/blue.png');
-    yellowFlowerImage = loadImage('images/yellow.png');
-    orangeFlowerImage = loadImage('images/orange.png');
+    blueFlowerImage = loadImage('blue.png');
+    yellowFlowerImage = loadImage('yellow.png');
+    orangeFlowerImage = loadImage('orange.png');
 }
 
 function setup() {
