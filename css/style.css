@@ -1,0 +1,234 @@
+body {
+    /* background-color: pink; */
+    align-items: center;
+      color: #333;
+      font-family: Verdana,  sans-serif;
+      margin: 0;
+      list-style: none;
+      /* display: inline-block;*/
+     }
+     
+     header {
+       background-color: #efefef;
+       /* background-color: tomato; */
+       
+       margin-left: auto;
+       margin-right: auto;
+       align-items: center;
+       padding-top: 32px;
+       padding-bottom: 30px;
+     }
+     
+     
+     .container1 {
+         /* background-color:green; */
+         width: 400px;
+         margin-left: auto;
+         margin-right: auto;
+         display: flex;
+         align-items: center;
+         
+     }
+     
+     .icon img {
+         border-radius: 40%;
+         border-width: 4px;
+         border-style: solid;
+         border-color: white;
+     }
+     
+     .info {
+         /* background-color:blue; */
+         margin-left: 32px;
+     }
+     
+     .info h1 {
+         font-weight: normal;
+         font-size: 24px;
+         margin: 0;
+     }
+     .info p {
+         margin: 0;
+         margin-bottom: 14px;
+     }
+
+
+     
+
+
+
+/* 画像を反転させる */
+
+.container2 {
+  /* background-color:green; */
+  
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  
+}
+
+.image2 {
+  width: 180px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.image2 img {
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+
+
+.image3 {
+  width: 180px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  user-select: none;
+  
+}
+
+.image3 img {
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  user-select: none;
+}
+
+input[type="button"] {
+ 
+  cursor: pointer;
+}
+
+
+
+  /* 動くスタイル   */
+    .circle1 {
+        margin-left: auto;
+         margin-right: auto;
+        transform: scale(-1,1);
+        transition-duration: 1s;
+        user-select: none;
+    } 
+    
+    .circle2 {
+         margin-left: auto;
+         margin-right: auto;
+         transform: scale(1,-1);
+         transition-duration: 2s;
+         user-select: none;
+        
+        }
+    
+    .circle3 {
+        transform: translateX(100px);
+        transition-duration: 1s;
+        transform: rotate(-180deg);
+        user-select: none;
+    }
+
+
+
+
+     
+     /* チャット風の会話 */
+     .fukidasi-container {
+        padding: 32px;
+        
+      }
+      
+      .messages {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        
+      }
+      
+      .messages li {
+        display: flex;
+      }
+      
+      .messages li + li {
+        margin-top: 32px;
+      }
+      
+      li.right-side {
+        flex-direction: row-reverse;
+      }
+      
+      .pic {
+        /* background: pink; */
+        width: 80px;
+        text-align: center;
+      }
+      
+      .pic img {
+        width: 58px;
+        height: 58px;
+        border-radius: 50%;
+      }
+      
+      .text {
+        background:#efefef ;
+        border-radius: 8px;
+        padding: 16px 24px;
+        max-width: 60%;
+        line-height: 1.8;
+        position: relative;
+      }
+      
+      .text::before {
+        content: '';
+        width: 0;
+        height: 0;
+        /* border: 8px solid #fff; */
+        border: 8px solid transparent;
+        position: absolute;
+      }
+      
+      
+      
+      .right-side .text::before {
+        top: 12px;
+        right: -16px;
+        border-left-color: #efefef;
+      }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      .works {
+        width: 180px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .works > h1 {
+        font-weight: normal;
+        font-size: 18px;
+        text-align: center;
+        margin-top: 80px;
+        margin-bottom: 0px;
+    }
+    
+    
+      .works> section  {
+        margin-bottom: 60px;
+    }
+      .works> figure  {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
