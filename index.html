@@ -1,19 +1,130 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>p5practice</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>14のカノンの3曲目</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-  
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.2.0/p5.js"></script>
-  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.min.js"></script> -->
-  <script src="sketch.js"></script>
+  <body>
+    <header>
+        <div class="container1">
+           <div class="icon">
+              <img src="img\neko.top.gif" width="160" height="110" alt="ゆきにゃあのお散歩アイコンです"> 
+           </div>
+        <div class="info">
+              <h1>バッハとお散歩</h1>
+              <p>音楽家バッハのページ</p> 
+      <!--<ul> --   
+              </ul> -->
+          </div>
+        </div>
+  </header>
+  <div class="otamajakusi-container">
+       <div class="image-otamajakusi">
+            <img src="img\button.4.png" >
+       </div>
+  </div>
+     
+         
+        
+     <div class="container2"id="target2">
+        <div class="image2">
+          <img src="img\score.a-thumbnail2.gif"  width="200" height="40" alt="楽譜イメージ画像です">
+          <li>テーマとなる8音</li>
+       </div>
+     </div>
 
-  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.8/p5.min.js"></script> -->
-  <!-- <script src="js/main.js"></script> -->
-  
+
+
+    <div class="fukidasi-container">
+       <ul class="messages">
+      
+          <li class="right-side">
+             <div class="pic">
+               <img src="img/otamajakusi.icon.png">
+             </div>
+              <div class="text">
+             クリックしていただくと上下逆さまになりますよ。
+          </div>
+          </li>
+      </ul>
+  </div>
+
+
+  <div class="container2">
+      <div class="image3">
+            <img src="img\14-3-thumbnail2.gif"  width="200" height="70" alt="14のカノンの3曲目の楽譜イメージ画像です">
+      
+          <audio id="audio" preload="auto">
+               <source src="img\canon14.3.mp3" type="audio/mp3">
+               <p>※ご利用のブラウザでは再生することができません。</p>
+          </audio>
+                <input type="button" onclick="audioPlay()" value="再生">
+                <input type="button" onclick="audioPause()" value="停止"> 
+             <li>左右反転、蟹行カノンと呼ばれるもの</li>
+       </div>
+   </div>
+
+
+
+<div class="fukidasi-container">
+    <ul class="messages">
+      
+      <li class="right-side">
+        <div class="pic">
+          <img src="img\neko.icon.png">
+        </div>
+        <div class="text">
+          聞いてみるにゃ
+        </div>
+      </li>
+
+    </ul>
+  </div>
+
+
+
+
+
+
+
+
+  <section class="works">
+    <h1>お散歩どこからともなくあらわれたあの有名な肖像画</h1>
+    <a href="page2.html"><img src="img\button1.png" width="180" height="100" alt="肖像画の手元の画像です"></a>
+     
+</section>
+
+<section class="works">
+   <h1>「１４のカノン」のテーマとなる8音</h1>
+    <img src="img\button2.png" width="180" height="100" alt="14のカノンのイメージ画像です">
+</section> 
+
+<section class="works">
+   <h1>「１４のカノン」の１　カニ　逆行系</h1>
+    <img src="img\button.3.png" width="180" height="100" alt="カニのような楽譜イメージ画像です">
+</section>  
+
+
+
+
+
+<script src="myscript.js"></script>
+
 </body>
 
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
